@@ -1,0 +1,37 @@
+# TrustedX Add-on for Splunk
+
+## System requirements
+- Splunk 8.0 or newer
+
+## Installation
+Install the add-on on: 
+Search Heads - The add-on contains search time extractions 
+Indexers - Needed for index time operations in case the syslog flow is targetting this instances
+Heavy Forwaders - Needed for index time operations in case the syslog flow is targetting this instances
+
+## Configuration
+### Splunk
+- Configure a new index (e.g. trustedx) for the new logs
+
+#### Receiving syslogs on Splunk
+NOTE: Its recommended to use a separate and dedicated syslog solution (e.g. rsyslog, syslog-ng, etc) instead of sending syslog directly to Splunk.
+- Configure new TCP port (e.g. 514) pointing to the new index using the "trustedx:syslog" sourcetype
+
+#### Monitoring log files
+- Configure a new file monitor input pointing to the new index using the "trustedx:syslog" sourcetype
+
+### TrustedX
+- Configure syslog outputs
+
+For more information please refer to the product documentation
+
+## Troubleshooting
+
+
+## Support
+You can file bug reports on our [GitHub issue tracker](https://github.com/diogofgm/TA-trustedx/issues) and they will be addressed as soon as possible.
+**Support is a volunteer effort** and there is no guaranteed response time.
+
+
+## Online documentation
+http://ta-trustedx.readthedocs.org
