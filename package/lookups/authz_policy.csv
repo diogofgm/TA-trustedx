@@ -1,0 +1,3 @@
+authz_policy,authz_policy_description
+urn:safelayer:tws:policies:authorization:default, Default authorization policy 
+urn:safelayer:tws:policies:authorization:sample:1, Authorization policy (sample)

@@ -1,0 +1,3 @@
+validation_policy,validation_policy_description
+urn:safelayer:tws:policies:validation:sample:ocsp, Validation policy against OCSP (sample)
+urn:safelayer:tws:policies:validation:sample:crl, Validation policy against CRL (sample)

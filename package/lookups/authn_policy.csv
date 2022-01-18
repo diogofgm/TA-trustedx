@@ -1,0 +1,3 @@
+authn_policy,authn_policy_description
+urn:safelayer:tws:policies:authentication:default, Default authentication policy
+urn:safelayer:tws:policies:authentication:sample:1, Authentication policy (sample)

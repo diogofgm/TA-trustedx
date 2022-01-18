@@ -1,0 +1,22 @@
+dss_profile,profile_description
+urn:safelayer:tws:dss:1.0:profiles:xades:1.0:sign,XML-DSIG
+urn:safelayer:tws:dss:1.0:profiles:wss:1.0:sign,WSSE
+urn:safelayer:tws:dss:1.0:profiles:cmspkcs7sig:1.0:sign,CMS
+urn:safelayer:tws:dss:1.0:profiles:smime:1.0:sign,S/MIME
+urn:safelayer:tws:dss:1.0:profiles:pdf:1.0:sign,PDF
+urn:safelayer:tws:dss:1.0:profiles:timestamping:1.0:sign,TS
+urn:safelayer:tws:dss:1.0:profiles:xades:1.0:verify,XML-DSIG
+urn:safelayer:tws:dss:1.0:profiles:cmspkcs7sig:1.0:verify,CMS
+urn:safelayer:tws:dss:1.0:profiles:smime:1.0:verify,S/MIME
+urn:safelayer:tws:dss:1.0:profiles:wss:1.0:verify,WSSE
+urn:safelayer:tws:dss:1.0:profiles:pdf:1.0:verify,PDF
+urn:safelayer:tws:dss:1.0:profiles:timestamping:1.0:verify,TS
+urn:safelayer:tws:dss:1.0:profiles:certstatus:1.0:verify,X.509 Certificate
+urn:safelayer:tws:de:1.0:profiles:xmlenc:1.0:encrypt,XML-DSIG
+urn:safelayer:tws:de:1.0:profiles:cmspkcs7enc:1.0:encrypt,CMS
+urn:safelayer:tws:de:1.0:profiles:smime:1.0:encrypt,S/MIME
+urn:safelayer:tws:de:1.0:profiles:wss:1.0:encrypt,WSSE
+urn:safelayer:tws:de:1.0:profiles:xmlenc:1.0:decrypt,XML-DSIG
+urn:safelayer:tws:de:1.0:profiles:cmspkcs7enc:1.0:decrypt,CMS
+urn:safelayer:tws:de:1.0:profiles:smime:1.0:decrypt,S/MIME
+urn:safelayer:tws:de:1.0:profiles:wss:1.0:decrypt,WSSE

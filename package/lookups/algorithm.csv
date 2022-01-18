@@ -1,0 +1,11 @@
+signed_data_hash_algorithm,algorithm_description
+http://www.w3.org/2001/04/xmlenc#sha256,RSA signature with SHA256 algorithm
+http://www.w3.org/2000/09/xmldsig#sha1,RSA signature with SHA1 algorithm
+http://www.w3.org/2001/04/xmlenc#sha512,RSA signature with SHA512 algorithm
+http://www.w3.org/2001/04/xmldsig-more#sha384,RSA signature with SHA384 algorithm
+sha1,RSA signature with SHA1 algorithm
+http://www.w3.org/2001/04/xmldsig-more#md5,RSA signature with MD5 algorithm
+md5,RSA signature with MD5 algorithm
+id-sha512,RSA signature with SHA512 algorithm
+id-sha384,RSA signature with SHA384 algorithm
+id-sha256,RSA signature with SHA256 algorithm

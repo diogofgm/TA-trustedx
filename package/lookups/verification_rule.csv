@@ -1,0 +1,3 @@
+verification_rule,verification_rule_description
+urn:safelayer:tws:policies:verification:rules:sample:ocsp, Signature verification rule against OCSP (sample)
+urn:safelayer:tws:policies:verification:rules:sample:crl, Signature verification rule against CRL (sample)

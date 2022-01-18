@@ -1,0 +1,2 @@
+crl_distribution_point,trust_end_entity
+https://localhost:8080/trustedx-democa/democa.crl, "CN=Safelayer - Class 1 Root CA Demo"
