@@ -1,0 +1,16 @@
+# App outputs
+bin/output.log
+
+# Splunk Files and Folders
+local/
+local.meta
+addon_builder.conf
+
+# MacOS Files
+.DS_Store
+
+# Other 
+.vscode
+build/
+sample_data/
+docker_splunk.sh
