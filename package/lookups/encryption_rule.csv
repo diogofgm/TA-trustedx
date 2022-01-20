@@ -1,2 +1,3 @@
 encryption_rule,encryption_rule_description
 urn:safelayer:tws:policies:encryption:rules:sample:1, Data encryption rule (sample)
+urn:safelayer:tws:policies:generation:rules:pnine:pdfsign,

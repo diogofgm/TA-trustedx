@@ -1,18 +1,17 @@
-authn_method,authn_method_description
-urn:safelayer:tws:policies:authenticacion:methods:anonymous, Anonymous
-urn:oasis:names:tc:SAML:1.0:am:unspecified, Not specified
-urn:oasis:names:tc:SAML:1.0:am:password, Username and password
-urn:oasis:names:tc:SAML:1.0:am:XKMS, XKMS protocol
-urn:ietf:rfc:1510, Kerberos 
-urn:ietf:rfc:2945, SRP protocol
-urn:oasis:names:tc:SAML:1.0:am:HardwareToken, Hardware token
-urn:ietf:rfc:2246, SSL/TLS protocol
-urn:oasis:names:tc:SAML:1.0:am:X509-PKI, X.509 certificate
-urn:ietf:rfc:3075, XML-DSig 
-urn:ietf:rfc:3075:wss, XML-DSig WS-Security
-urn:oasis:names:tc:SAML:1.0:am:password:clear, Username and password as clear text
-urn:oasis:names:tc:SAML:1.0:am:password:digest, Username and password as hashed data
-urn:oasis:names:tc:SAML:1.0:am:OTP, One time password
-urn:ietf:rfc:2315, PKCS#7 signature
-urn:ietf:rfc:3369, CMS signature
-
+authn_method,authn_method_description,authentication_method
+urn:safelayer:tws:policies:authenticacion:methods:anonymous, Anonymous,
+urn:oasis:names:tc:SAML:1.0:am:unspecified, Not specified,SAML
+urn:oasis:names:tc:SAML:1.0:am:password, Username and password,SAML
+urn:oasis:names:tc:SAML:1.0:am:XKMS, XKMS protocol,SAML
+urn:ietf:rfc:1510, Kerberos,Kerberos
+urn:ietf:rfc:2945, SRP protocol,
+urn:oasis:names:tc:SAML:1.0:am:HardwareToken, Hardware token,SAML
+urn:ietf:rfc:2246, SSL/TLS protocol,
+urn:oasis:names:tc:SAML:1.0:am:X509-PKI, X.509 certificate,SAML
+urn:ietf:rfc:3075, XML-DSig,
+urn:ietf:rfc:3075:wss, XML-DSig WS-Security,
+urn:oasis:names:tc:SAML:1.0:am:password:clear, Username and password as clear text,SAML
+urn:oasis:names:tc:SAML:1.0:am:password:digest, Username and password as hashed data,SAML
+urn:oasis:names:tc:SAML:1.0:am:OTP, One time password,SAML
+urn:ietf:rfc:2315, PKCS#7 signature,
+urn:ietf:rfc:3369, CMS signature,

@@ -1,2 +1,3 @@
 generation_rule,generation_rule_description
-urn:safelayer:tws:policies:generation:rules:sample:1, Signature generation rule (sample) 
+urn:safelayer:tws:policies:generation:rules:sample:1, Signature generation rule (sample)
+urn:safelayer:tws:policies:generation:rules:pnine:pdfsign,
