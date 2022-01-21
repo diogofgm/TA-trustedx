@@ -20,3 +20,5 @@ urn:safelayer:tws:de:1.0:profiles:xmlenc:1.0:decrypt,XML-DSIG
 urn:safelayer:tws:de:1.0:profiles:cmspkcs7enc:1.0:decrypt,CMS
 urn:safelayer:tws:de:1.0:profiles:smime:1.0:decrypt,S/MIME
 urn:safelayer:tws:de:1.0:profiles:wss:1.0:decrypt,WSSE
+urn:safelayer:tws:dss:1.0:profiles:pades:1.0:sign,PAdES
+
