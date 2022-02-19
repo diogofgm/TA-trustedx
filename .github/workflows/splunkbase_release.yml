@@ -32,7 +32,7 @@ jobs:
           cd dist
           ls -la
           pwd
-          
+
       - name: Publish to Splunkbase
         shell: bash
         run: |
@@ -40,6 +40,3 @@ jobs:
           pwd
           ls
           curl -u ${{ secrets.SPLUNKBASE_USER }}:${{ secrets.SPLUNKBASE_PASSWORD }} --request POST https://splunkbase.splunk.com/api/v1/app/${{ steps.vars.outputs.SPLUNKBASE_ID }}/new_release/ -F "files[]=@/home/runner/work/TA-ibm_secretserver/TA-ibm_secretserver/dist/TA-ibm_secretserver.tgz" -F "filename=TA-ibm_secretserver.tgz" -F "cim_versions=${{ steps.vars.outputs.SPLUNKBASE_SPLUNK_CIM_VERSION }}" -F "splunk_versions=${{ steps.vars.outputs.SPLUNKBASE_SPLUNK_VERSION }}" -F "visibility=true"
-
-        
-      

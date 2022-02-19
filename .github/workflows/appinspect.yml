@@ -10,7 +10,7 @@ on:
     branches:
       - "main"
       - "develop"
-  
+
 jobs:
 
   # Package App
