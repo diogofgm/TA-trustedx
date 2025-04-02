@@ -1,0 +1,20 @@
+check_for_known_vulnerabilities_in_third_party_libraries:
+  comment: 'does no use third party libraries'
+check_for_reverse_shells:
+  comment: 'does not include reverse shells'
+check_authorization_credentials:
+  comment: 'does not use authorization credentials'
+check_embedded_links:
+  comment: 'does not have embedded links'
+check_fs_writes:
+  comment: 'does not write to the filesystem'
+check_dependencies:
+  comment: 'does not require dependencies'
+check_documented_included_open_source:
+  comment: 'does not include open source software'
+check_editing_and_proofreading:
+  comment: 'ok'
+check_requires_access_to_files_outside_apps_dir:
+  comment: 'does not require access to files outside apps dir'
+check_link_includes_contact_info:
+  comment: 'contact info included'
